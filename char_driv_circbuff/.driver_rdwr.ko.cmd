@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/char_driv_circbuff/driver_rdwr.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rachana/char_drivers/char_driv_circbuff/driver_rdwr.ko /home/rachana/char_drivers/char_driv_circbuff/driver_rdwr.o /home/rachana/char_drivers/char_driv_circbuff/driver_rdwr.mod.o;  true
