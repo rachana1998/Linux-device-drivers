@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.mod := { echo  /home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.o; echo; } > /home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.mod

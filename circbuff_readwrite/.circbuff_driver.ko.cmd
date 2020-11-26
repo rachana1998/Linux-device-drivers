@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.ko /home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.o /home/rachana/char_drivers/circbuff_readwrite/circbuff_driver.mod.o;  true
