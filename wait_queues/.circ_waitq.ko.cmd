@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/wait_queues/circ_waitq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rachana/char_drivers/wait_queues/circ_waitq.ko /home/rachana/char_drivers/wait_queues/circ_waitq.o /home/rachana/char_drivers/wait_queues/circ_waitq.mod.o;  true
