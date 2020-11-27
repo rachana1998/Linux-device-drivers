@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/module_parameters/param.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rachana/char_drivers/module_parameters/param.ko /home/rachana/char_drivers/module_parameters/param.o /home/rachana/char_drivers/module_parameters/param.mod.o;  true
