@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/ioctl_demo/myioctl.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rachana/char_drivers/ioctl_demo/myioctl.ko /home/rachana/char_drivers/ioctl_demo/myioctl.o /home/rachana/char_drivers/ioctl_demo/myioctl.mod.o;  true
