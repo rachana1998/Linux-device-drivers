@@ -1,0 +1,1 @@
+cmd_/home/rachana/char_drivers/demo_semaphore/semaphore.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rachana/char_drivers/demo_semaphore/semaphore.ko /home/rachana/char_drivers/demo_semaphore/semaphore.o /home/rachana/char_drivers/demo_semaphore/semaphore.mod.o;  true
